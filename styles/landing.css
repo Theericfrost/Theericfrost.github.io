@@ -1,0 +1,220 @@
+*{
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.header {
+  min-height: 50vw;
+  background: #242943;
+}
+
+.header_menu {
+  min-height: 50px;
+  background: #2a2f4a;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_text {
+  white-space: nowrap;
+  text-align: left;
+  display: flex;
+}
+
+.menu_text p {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+
+.menu_text p:first-child {
+  color: #242943;
+  background: white;
+  height: 23px;
+  padding: 0 5px;
+}
+
+.menu_nav{
+  white-space: nowrap;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  color: white;
+  margin-right: 10px;
+}
+
+.menu_nav img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+
+.header_text {
+  color:rgb(255, 255, 255);
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -1vw;
+}
+
+.header_text h1{
+  font-size: 3vw;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 20vw
+}
+
+.header_text img {
+  width: 100%;
+  height: 30vw;
+}
+
+.header_text p {
+  text-indent: 2vw;
+  font-size: 1vw;
+}
+
+.header_text p:last-child{
+  padding-bottom: 3vw
+}
+                      /* contacts */
+.contacts {
+  display: flex;
+  background: #242943;
+  color: white;
+  min-height: 30vw;
+}
+
+.contacts_form {
+  width: 100%;
+  border: 0.002vw solid #363b56;
+}
+
+.contacts_form_flex {
+  margin: 3vw 0 0 6vw
+}
+
+.contacts_form label {
+  font-size: 1vw;
+}
+
+.contacts_form_flex input {
+  background: #2a2f4a;
+  border: none;
+  height: 2.5vw;
+  width: 17vw;
+  margin-top: 0.5vw;
+}
+
+.contacts_form_flex_email {
+  margin-left: 3vw;
+}
+
+.contacts_form_message {
+  margin: 1vw 0 0 6vw
+}
+
+.contacts_form_message textarea {
+  background: #2a2f4a;
+  border: none;
+  height: 10vw;
+  width: 37vw;
+  margin-top: 0.5vw;
+}
+
+.contacts_form_buttons {
+  margin: 2vw 0 0 6vw;
+}
+
+.buttons_1 {
+  background: #ffffff;
+  border: none;
+  height: 3vw;
+  width: 10vw;
+  font-size: 1vw;
+}
+
+.buttons_2 {
+  background: #242943;
+  border: 0.01vw solid  rgb(245, 245, 245);
+  height: 3vw;
+  width: 7vw;
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+}
+
+.contacts_info{
+  width: 100%;
+}
+
+.info {
+  border: 0.002vw solid #363b56;
+}
+
+.info img {
+  width: 3vw;
+  height: 3vw;
+  float: left;
+  margin: 2vw 0 0 2vw;
+}
+
+.info h3 {
+  margin: 2.5vw 0 0 7vw;
+  font-size: 1.4vw;
+}
+
+.info p {
+  margin-left: 7vw;
+  font-size: 1.3vw;
+}
+
+.contacts_form_flex {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    display: block;
+    margin-top: -3vw;
+  }
+  .contacts_form {
+    width: 100%;
+    text-align: center;
+  }
+  .contacts_form_flex{
+    display: flex;
+    justify-content: center;
+  }
+  .contacts_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts_info_addres:last-child {
+    margin-bottom: -2vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .buttons {
+  display: flex;
+  justify-content: center;
+  }
+}
+                      /* social */
+.social {
+  background: #242943;
+  color: #374766;
+  height: 15vw;
+}
+
+.social_links img {
+  width: 3vw;
+  height: 3vw;
+  margin: 4vw 0 0 6vw;
+}
+
+.social_copyright p {
+  font-size: 1vw;
+  margin: 2vw 0 0 6vw;
+}
