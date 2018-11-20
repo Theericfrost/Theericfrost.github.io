@@ -37,7 +37,7 @@
   padding: 0 5px;
 }
 
-.menu_nav{
+.menu_nav {
   white-space: nowrap;
   text-align: right;
   display: flex;
@@ -58,26 +58,9 @@
   color: rgb(255, 255, 255);
 }
 
-.logo hr {
-  height: 0.1vh;
-  background: rgb(255, 255, 255);
-  margin-top: -2vh;
-  margin-right: 20vh;
-}
-
 @media screen and (max-width: 650px) {
   .logo{
     margin: -1vh 0 0 10vh;
-  }
-  .logo hr {
-    height: 0.02vh;
-      background: rgb(255, 255, 255);
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .logo hr {
-    display: none;
   }
 }
 
@@ -88,6 +71,9 @@
 
 .logo h1 {
   font-size: 3vw;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 40vw;
+  padding-bottom: 1vw;
 }
 
 .logo a {
@@ -115,19 +101,14 @@
 .row h2 {
   font-size: 2vw;
   margin: 7vw 0 0 2vw;
-
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 15vw;
+  padding-bottom: 1vw;
 }
 
 .row p {
   font-size: 1.5vw;
   margin: 1vw 0 0 2vw;
-}
-
-.row hr{
-  height: 0.1vw;
-  background: rgb(255, 255, 255);
-  width: 30%;
-  margin: 0 0 -5px 2vw;
 }
 
 .row_block1 {
@@ -234,7 +215,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .main h1 , .main hr  {
+  .main h1 {
     margin-bottom: -1vw;
   }
   .main p {
@@ -251,6 +232,9 @@
 .main h1 {
   font-size: 1vw;
   position:static;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 12vw;
+  padding-bottom: 1vw;
 }
 
 .main p {
@@ -264,13 +248,6 @@
   border: 1px solid rgb(255, 255, 255);
   padding: 0.5vw;
   height: 1vw;
-}
-
-.main hr {
-  height: 0.1vw;
-  background: rgb(255, 255, 255);
-  width: 20%;
-  margin-left: 0;
 }
                       /* contacts */
 .contacts {
