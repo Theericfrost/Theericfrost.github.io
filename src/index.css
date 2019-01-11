@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'PT Serif', serif;
+  transition: background-image 0.7s 0.02s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.FirstScreen {
+  text-align: center;
+  color: white;
+  background: black;
+  opacity: 0.85;
+  border-radius: 5%;
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 200px;
+}
+.FirstScreen h1 {
+  padding-top: 10px;
+}
+.FirstScreen h2 {
+  padding-top: 0px;
+  color: darkred;
+}
+.FirstScreen button {
+  width: 198px;
+  height: 52px;
+  z-index: 94;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial Black;
+  border-radius: 16px;
+  background: darkred;
+  opacity: 1;
+  color: white;
+  transition: color 0.3s 0.02s ease;
+  transition: background-color 0.9s 0.02s ease;
+}
+.FirstScreen button:hover {
+  background: black;
+  color: darkred;
+  box-shadow: inset 0 0 0 3px darkred;
+}
+
+.Secondsreen{
+  color: white;
+  background: black;
+  opacity: 0.9;
+  min-height: 100vh;
+}
+
+.Header {
+  display: inline-flex;
+  color: white;
+}
+.Header h1 span {
+  color: darkred;
+}
+.Header h1 {
+  padding-left: 12vw;
+}
+
+.Icons {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  cursor: pointer;
+}
+.Icons h1 {
+  width: 99%;
+  height: 99%;
+  text-align: center;
+  transition: background-color 0.3s 0.02s ease;
+}
+.Icons h1:hover {
+  background: darkred;
+}
+
+
+.Form_h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.Form_h2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Autor {
+  text-align: center;
+  color: white;
+}
+.Autor a {
+  height: 25px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  padding-top: 20px;
+  transition: color 0.6s 0.02s ease;
+}
+.Autor a:hover {
+  color: darkred;
+}
+.Autor button {
+  margin-bottom: 20px;
+  width: 198px;
+  height: 52px;
+  z-index: 94;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial Black;
+  border-radius: 16px;
+  background: darkred;
+  opacity: 1;
+  color: white;
+  transition: color 0.4s 0.02s ease;
+  transition: background-color 0.9s 0.02s ease;
+}
+
+.Autor button:hover {
+  background: black;
+  color: darkred;
+  box-shadow: inset 0 0 0 3px darkred;
+}
+
+.days {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.days h1 {
+  background: darkred;
+  border-radius: 100%;
+  width: 55px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.days-after {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  background: darkred;
+  width: 200px;
+}
+.Timer {
+  text-align: center;
+
+}
+
+.Timer button {
+  width: 120px;
+  height: 30px;
+  z-index: 94;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial Black;
+  border: none;
+  background: darkred;
+  opacity: 1;
+  color: white;
+  margin: 20px 10px;
+  transition: color 0.4s 0.02s ease;
+  transition: background-color 0.4s 0.02s ease;
+}
+
+.Timer button:hover {
+  background: black;
+  color: darkred;
+  box-shadow: inset 0 0 0 3px darkred;
+}
+
+.Button_finish {
+  height: 100px;
+  background: black;
+}
+.Otjim {
+  text-align: center;
+}
+
+.Otjim h3 {
+  color: darkred;
+}
+
+.Otjim h1 {
+  color: cornflowerblue;
+  cursor: pointer;
+  transition: color 0.3s 0.02s ease;
+}
+
+.Otjim h1:hover {
+  color: white;
+
+}
