@@ -4,7 +4,7 @@
 p { margin: 5px 0 10px 0; }
 .parallax {
   width: 100%;
-  height: 610px;
+  height: 800px;
   background: url(images/2.jpg);
   overflow: hidden;
   -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -13,7 +13,7 @@ p { margin: 5px 0 10px 0; }
     background-size: 100%; /* Современные браузеры */
 }
 .scene {
-  position: absolute;
+  position: static;
   bottom: 0;
   left: 0;
   overflow: hidden;
@@ -22,7 +22,7 @@ p { margin: 5px 0 10px 0; }
   height: 800px;
 }
 .scene > div {
-  position: absolute;
+  position: static;
   bottom: 0;
   }
 .ground {
@@ -30,35 +30,35 @@ p { margin: 5px 0 10px 0; }
   height: 30px;
   background: #1d1818;
   z-index: 999;
+
 }
 .scene >div.clouds {
   width: 110%;
-
   height: 300px;
-  bottom: 400px;
+  margin-top: -75px;
   background:  url(images/clouds.png) no-repeat center;
-
 }
 .clouds:hover{
   transform: rotateZ(30deg);
 }
 .scene div.trees {
   width: 908px;
-  height: 174px;
-  background: url(images/trees.png) no-repeat center;
+  height: 260px;
+  background: url(http://i.imgur.com/WYfbo0O.png) no-repeat center;
   z-index: 100;
-  left:50%;
-  bottom:20px;
-  margin-left: -454px;
+  margin-left: 200px;
+
 }
 .scene div.grass {
   width: 964px;
   height: 37px;
   z-index: 200;
-  left: 50%;
-  bottom: 15px;
-  margin-left: -482px;
+  margin-left: 200px;
+  position: absolute;
   background: url(images/grass.png) no-repeat center;
+  bottom: -20px;
+  overflow: hidden;
+  display: none;
   }
 .scene div.buildings {
   width: 100%;
@@ -155,8 +155,8 @@ p { margin: 5px 0 10px 0; }
 
 .contacts {
   background: #342a2a;
-  padding-top: 50px;
-  margin-top: 100px;
+  padding-top: -50px;
+
 }
 
 .contacts__frame {
